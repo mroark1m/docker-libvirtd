@@ -29,6 +29,7 @@ RUN apk add --no-cache \
     qemu-img \
     && addgroup -S mumble-server && adduser -S mumble-server -G mumble-server
 
+
 COPY supervisord.conf /etc/supervisord.conf
 
 VOLUME ["/var/run/libvirt/", "/var/lib/libvirt"]
