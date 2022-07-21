@@ -5,6 +5,8 @@ RUN apk add --no-cache \
     ovmf \
     seabios \
     libvirt-client \
+    virt-install \
+    virt-manager \
     libvirt-daemon \
     libvirt-common-drivers \
     libvirt-qemu \
