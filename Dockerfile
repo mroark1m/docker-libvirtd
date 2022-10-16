@@ -26,8 +26,7 @@ RUN apk add --no-cache \
     qemu-hw-display-virtio-gpu-pci \
     qemu-hw-display-virtio-vga \
     qemu-hw-usb-redirect \
-    qemu-img \
-    && addgroup -S mumble-server && adduser -S mumble-server -G mumble-server
+    qemu-img
 
 
 COPY supervisord.conf /etc/supervisord.conf
